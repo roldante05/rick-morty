@@ -19,6 +19,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      
         <h1 className="title">Rick & Morty</h1>
         {characters ? (
           <Characters characters={characters} setCharacters={setCharacters} />
@@ -31,6 +32,7 @@ function App() {
         </button>
         </>
         )}
+        <h2 className="title" > By Dante Roldan</h2>
       </header>
     </div>
   );
