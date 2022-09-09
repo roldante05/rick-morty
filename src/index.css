@@ -14,8 +14,8 @@ body {
 }
 
 .img-home {
-  width: 500px;
-  padding: 50px;
+  width: 400px;
+  padding: 40px 50px;
 }
 
 .btn-search {
@@ -63,6 +63,8 @@ body {
 
 .character-container h3 {
   margin: 10px 0;
+  font-size: 20px;
+  width: 180px;
 }
 
 .character-container h6 {

@@ -10,8 +10,8 @@ function App() {
     const api = await fetch("https://rickandmortyapi.com/api/character");
     
     const characterApi = await api.json();
-    
     setCharacters(characterApi.results)
+
 
    
   };
