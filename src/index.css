@@ -148,4 +148,12 @@ body {
   .character-container img {
     width: 150px;
   }
+  .img-home{
+    width: 250px;
+
+  }
+
+  .title{
+    font-size: 30px;
+  }
 }
