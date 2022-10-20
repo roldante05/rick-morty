@@ -6,37 +6,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: Rick and Morty Font;
+  src: url('./resources/get_schwifty.ttf');
+  font-style: Fancy, Horror;
+}
+
+.font{
+  font-family: Rick and Morty Font;
+}
+
 .title {
   color: #738f93;
   font-size: 40px;
-  font-family: fantasy, sans-serif;
   margin-bottom: 0;
+  margin: 15px 0px;
+  font-family: Rick and Morty Font ;
 }
 
 .img-home {
   width: 400px;
-  padding: 40px 50px;
+  padding: 10px 50px;
 }
 
-.btn-search {
-  background-color: #1ba94c;
-  color: #ffffff;
-  box-shadow: 0 4px 12px rgb(27 169 76 / 50%);
-  font-size: 18.005px;
-  padding-left: 1.528em;
-  padding-right: 1.528em;
-  padding-top: 0;
-  padding-bottom: 0;
-  min-height: 2.778em;
-  border: none;
-  cursor: pointer;
-}
 
-.btn-search:hover {
-  background-color: #ffffff;
-  border: 1px solid #1ba94c;
-  color: #1ba94c;
-}
 
 .characters {
   padding: 50px;
